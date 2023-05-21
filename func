@@ -1,0 +1,11 @@
+func isPalindrome(_ number: Int) -> Bool {
+    let string = String(number)
+    return string == String(string.reversed())
+}
+
+let num = 12321
+if isPalindrome(num) {
+    print("\(num) является палиндромом")
+} else {
+    print("\(num) не является палиндромом")
+}
